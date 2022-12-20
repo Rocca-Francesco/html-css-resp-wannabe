@@ -1,7 +1,26 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .container {
-        width: 767px;
+        width: 768px;
         margin: 0 auto;
         padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
     }
 }
