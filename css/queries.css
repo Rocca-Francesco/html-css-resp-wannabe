@@ -1,7 +1,17 @@
+/* bonus */
+
+@media screen and (max-width:1160px) {
+    .container {
+        width: auto;
+        max-width: 1140px;
+    }
+}
+
+/* ex base */
+
 @media screen and (max-width: 768px) {
     .container {
         width: 768px;
-        margin: 0 auto;
         padding: 0 10px;
     }
 }
@@ -9,7 +19,6 @@
 @media screen and (max-width: 480px) {
     .container {
         width: 480px;
-        margin: 0 auto;
         padding: 0 10px;
     }
 
